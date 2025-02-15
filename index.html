@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ThrillerBark</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+        <link rel = "stylesheet" href = "css/login.css">
+
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Thriller<span>Bark</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "login.html" class = "nav-link">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Where Every Journey is an Epic Tale!</h1>
+                    <p> Join us in crafting unforgettable memories as we guide you through thrilling landscapes and captivating experiences. Your adventure begins here – let's explore the extraordinary together!</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Discover the rhythm of samba echoing through the streets, the breathtaking views from Sugarloaf Mountain, and the sun-kissed beaches</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text">Where golden sands meet endless horizons, inviting you to surf, stroll, and savor the coastal charm, where sun-kissed days and breathtaking views await.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text"> a city pulsating with history, culture, and modern vibrancy.Enjoy the diverse culinary scene, vibrant nightlife, and the welcoming spirit of a city that never stops evolving</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Home to the iconic Wat Arun Temple, this district boasts intricate architecture, riverside charm, and a vibrant cultural scene.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">where ancient history meets contemporary charm. Immerse yourself in the iconic remnants of the Roman Empire, from the Colosseum's grandeur to the timeless beauty of the Pantheon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">Embrace the unique charm of this single-island atoll, adorned with lush greenery, vibrant coral reefs, and a tranquil ambiance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Escape to luxury with us! Discover handpicked, lavish hotels for a stay that's not just a getaway but an unforgettable experience. Your dream retreat starts here.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Embark on a seamless journey of discovery with our exceptional travel guides. Let our expertise be your compass, navigating you through hidden gems and cultural wonders.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Hassle-free travel with our travel company, offering unbeatable prices without compromising on quality. Your dream vacation is now within reach as we redefine affordability</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"Bravil surpassed all my expectations! From the vibrant energy of its streets to the warm hospitality, my visit was nothing short of magical. The personalized recommendations from the travel company made every moment special, creating a seamless and unforgettable experience. I can't wait to plan my next adventure with them – they truly know how to turn a trip into a cherished memory</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Sujal Singh</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">My trip to the Maldives was an absolute dream come true, and I owe it all to this incredible travel company. From the moment I landed on the pristine white sands to the breathtaking underwater adventures, every detail was meticulously planned. The luxury hotels offered unparalleled comfort, and the travel guide ensured I didn't miss a single paradise-like moment. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ibadullah Khan Rahib</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">My recent trip to Thailand, orchestrated by this amazing travel company, was nothing short of extraordinary. From the bustling markets of Bangkok to the serene beaches of Phuket, every aspect was seamlessly arranged. The travel guide provided invaluable insights, ensuring I discovered hidden gems and immersed myself in the rich culture. Thanks to this company, my Thai adventure was an unforgettable journey filled with incredible memories. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Mohit Burnwal</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Thriller<span>Bark</span>
+                    </a>
+                    <p class = "text">At Thriller Bark, we redefine travel with a passion for crafting extraordinary adventures,we specialize in curating seamless experiences, from luxury accommodations to expertly-guided tours.
+
+
+
+
+
+                    </p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
